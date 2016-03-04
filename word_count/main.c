@@ -36,6 +36,8 @@ int main(int argc,char **argv)
     //输出结果
     dump_word(stdout);
 
+    printf("\nsearch result:%s word count: %d\n","end",get_word_count("end"));
+
     //制空处理
     word_finalize();
 
